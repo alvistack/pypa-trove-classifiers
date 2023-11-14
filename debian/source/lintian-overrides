@@ -1,0 +1,5 @@
+python-trove-classifiers source: file-without-copyright-information
+python-trove-classifiers source: no-debian-changes
+python-trove-classifiers source: source-contains-prebuilt-windows-binary
+python-trove-classifiers source: source-is-missing
+python-trove-classifiers source: source-package-encodes-python-version
