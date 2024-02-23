@@ -11,6 +11,7 @@ with open(path.join(here, "README.md"), encoding="utf-8") as f:
 
 setup(
     name="trove-classifiers",
+    version="2025.9.11.17",
     description="Canonical source for classifiers on PyPI (pypi.org).",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -28,8 +29,6 @@ setup(
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     package_data={"": ["py.typed"]},
-    use_calver="%Y.%m.%d.%H",
-    setup_requires=["calver"],
     entry_points={
         "console_scripts": ["trove-classifiers=trove_classifiers.__main__:cli"],
     },
